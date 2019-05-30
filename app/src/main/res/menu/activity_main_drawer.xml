@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ShowClasses"
+            android:icon="@drawable/ic_visibility_black_24dp"
+            android:title="Show Classes" />
+        <item
+            android:id="@+id/nav_setClass"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Set Classes" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notice" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="Official Website(CSE)" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Faceboook " />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="45dp" android:height="45dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="#560027"></solid>
+            <corners android:bottomLeftRadius="8dp"
+                android:topLeftRadius="8dp"></corners>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/person"/>
+</layer-list>
+

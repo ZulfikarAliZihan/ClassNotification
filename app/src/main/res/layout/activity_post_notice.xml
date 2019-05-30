@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:id="@+id/post_notice"
+    tools:context=".post_notice">
+
+
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/desc"
+        style="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        android:ems="10"
+        android:hint="Description"
+        android:background="@drawable/border"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Notice"
+        android:textColor="#FFFF"
+        android:background="#97e15b"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="430dp" />
+</LinearLayout>

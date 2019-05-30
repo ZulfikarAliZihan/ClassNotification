@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".showClass">
+
+
+
+
+
+            <GridLayout
+                android:layout_weight="10"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/time1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginBottom="5dp"
+                            android:text="8am -9am" />
+
+                        <TextView
+                            android:id="@+id/class1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="No\nClass"
+
+                            android:textColor="#17b3c4"
+                            android:textSize="22sp" />
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs1"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/time2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:layout_gravity="center"
+                            android:text="9am -10am" />
+
+                        <TextView
+                            android:id="@+id/class2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="22sp"
+                            android:textColor="#17b3c4"
+                            android:layout_gravity="center"
+                            android:text="No\nClass"/>
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs2"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/time3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:layout_gravity="center"
+                            android:text="10am -11am" />
+
+                        <TextView
+                            android:id="@+id/class3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="22sp"
+                            android:textColor="#17b3c4"
+                            android:layout_gravity="center"
+                            android:text="No\nClass"/>
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs3"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/time4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:layout_gravity="center"
+                            android:text="11am - 12pm" />
+
+                        <TextView
+                            android:id="@+id/class4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="22sp"
+                            android:textColor="#17b3c4"
+                            android:layout_gravity="center"
+                            android:text="No\nClass" />
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs4"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/time5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:layout_gravity="center"
+                            android:text="12pm -1pm" />
+
+                        <TextView
+                            android:id="@+id/class5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="21sp"
+                            android:textColor="#17b3c4"
+                            android:layout_gravity="center"
+                            android:text="No\nClass"/>
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs5"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="12dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/time6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+
+                            android:layout_gravity="center"
+                            android:text="2pm - 5pm" />
+
+                        <TextView
+                            android:id="@+id/class6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:textSize="22sp"
+                            android:textColor="#17b3c4"
+                            android:layout_gravity="center"
+                            android:text="No\nClass"/>
+
+                        <ImageSwitcher
+                            android:id="@+id/imgs6"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="right">
+
+                        </ImageSwitcher>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </GridLayout>
+
+
+
+
+
+</LinearLayout>
